@@ -1,0 +1,12 @@
+[submodule "lib/version-vector-with-exceptions"]
+	path = lib/version-vector-with-exceptions
+	url = https://github.com/nhaouari/version-vector-with-exceptions
+[submodule "lib/spray-wrtc"]
+	path = lib/spray-wrtc
+	url = https://github.com/nhaouari/spray-wrtc
+[submodule "lib/LSEQTree"]
+	path = lib/LSEQTree
+	url = https://github.com/nhaouari/LSEQTree
+[submodule "lib/CausalBroadcastDefinition"]
+	path = lib/CausalBroadcastDefinition
+	url = https://github.com/nhaouari/CausalBroadcastDefinition
