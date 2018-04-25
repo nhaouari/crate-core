@@ -15,18 +15,10 @@
         "Browser-to-browser Communication"
     ],
     "dependencies": {
-        "version-vector-with-exceptions": "0.0.x",
-        "causal-broadcast-definition": "0.1.x",
-        "spray-wrtc": "0.1.x",
-        "lseqtree": "0.3.x"
     },
     "bundledDependencies": [
-        "version-vector-with-exceptions",
-        "causal-broadcast-definition",
-        "spray-wrtc",
-        "lseqtree"
     ],
-    "scripts":{
+    "scripts": {
         "debug": "browserify -r ./lib/crate-core.js:crate-core --debug > build/crate-core.bundle.debug.js",
         "build": "browserify -r ./lib/crate-core.js:crate-core | uglifyjs > build/crate-core.bundle.js"
     },
