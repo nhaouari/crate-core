@@ -1,12 +1,12 @@
 {
     "name": "crate-core",
-    "version": "0.0.8",
-    "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
+    "version": "0.1.0",
+    "author": "Noureddine Haouari <haouarin@gmail.com>",
     "description": "The core of CRATE: a [distributed and decentralized] CollaboRATive Editor.",
     "main": "./lib/crate-core.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chat-wane/crate-core.git"
+        "url": "https://github.com/haouarin/crate-core.git"
     },
     "keywords": [
         "Distributed Collaborative Editor",
@@ -15,6 +15,10 @@
         "Browser-to-browser Communication"
     ],
     "dependencies": {
+        "foglet-core": "^4.0.4",
+        "lseqtree": "^1.0.0",
+        "version-vector-with-exceptions": "^0.1.0",
+        
     },
     "bundledDependencies": [
     ],
