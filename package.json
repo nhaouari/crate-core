@@ -17,8 +17,7 @@
     "dependencies": {
         "foglet-core": "^4.0.4",
         "lseqtree": "^1.0.0",
-        "version-vector-with-exceptions": "^0.1.0",
-        
+        "version-vector-with-exceptions": "^0.1.0"
     },
     "bundledDependencies": [
     ],
